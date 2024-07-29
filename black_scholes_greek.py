@@ -1,6 +1,7 @@
 import numpy as np
 from black_scholes_pricing import BlackScholes
 
+
 # Class to calculate the greeks for BS model:
 # Delta
 # Gamma
