@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 from arch import arch_model
 
+
 # class to compute the volatilities using historical data
 # these return yearly volatilities
 
