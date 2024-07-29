@@ -5,6 +5,7 @@ from get_data import *
 from volatility import *
 from black_scholes_pricing import *
 
+
 def plot_vs_S(K,T,r,sig,q=0):
     S = np.linspace(K - 0.25*K, K+0.25*K,100)
     
