@@ -8,6 +8,7 @@ from volatility import *
 from plots import *
 
 
+
 ticker = str(input(f"Please input a stock ticker:"))
 r = get_risk_free_rate()
 S, T, Market_calls, Market_puts = get_option_data(ticker)
