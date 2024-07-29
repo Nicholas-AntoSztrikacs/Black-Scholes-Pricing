@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import yfinance as yf
 from datetime import datetime
 
+
 def get_risk_free_rate():
     url = 'https://fred.stlouisfed.org/series/DGS10'
     response = requests.get(url)
