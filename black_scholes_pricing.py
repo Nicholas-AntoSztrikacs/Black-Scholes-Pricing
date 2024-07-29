@@ -1,6 +1,7 @@
 import numpy as np
 from scipy.stats import norm
 
+
 # S: Spot price
 # K: Strike price
 # T: Time to expiration in years
