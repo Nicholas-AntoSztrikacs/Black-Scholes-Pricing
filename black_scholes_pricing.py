@@ -2,14 +2,17 @@ import numpy as np
 from scipy.stats import norm
 
 
-# S: Spot price
-# K: Strike price
-# T: Time to expiration in years
-# r: risk free interest rate
-# sig: annualized volatility
-# q: Dividen yield
+
 
 class BlackScholes:
+    """
+    S: Spot price
+    K: Strike price
+    T: Time to expiration in years
+    r: risk free interest rate
+    sig: annualized volatility
+    q: Dividen yield
+    """
     def __init__(self, S, K, T, r, sig, q=0):
         self.S = S
         self.K = K
